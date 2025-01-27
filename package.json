@@ -1,0 +1,19 @@
+{
+  "name": "@masa-dev/md-to-plain",
+  "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Convert markdown to beautiful plain text",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "tsc"
+  },
+  "dependencies": {
+    "marked": "^15.0.6"
+  }
+}
